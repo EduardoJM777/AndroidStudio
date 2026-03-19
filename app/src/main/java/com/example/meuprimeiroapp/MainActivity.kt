@@ -18,7 +18,6 @@ class MainActivity : ComponentActivity() {
         val tvResultado = findViewById<TextView>(R.id.tvResultado)
         val btLimpar = findViewById<Button>(R.id.btLimpar)
 
-
         btCalcularHomem.setOnClickListener {
 
             val peso = edPeso.text.toString().toDouble()
@@ -60,4 +59,5 @@ class MainActivity : ComponentActivity() {
         }
 
     }
+
 }

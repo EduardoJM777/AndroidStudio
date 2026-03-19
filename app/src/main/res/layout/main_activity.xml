@@ -9,25 +9,36 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informe o peso:"
+        android:text="Calcular IMC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe o peso (Kg):"
         android:textSize="20sp"
         android:layout_marginTop="150dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edPeso"/>
+        android:id="@+id/edPeso"
+        android:hint="Peso"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informe a altura:"
+        android:text="Informe a altura (m):"
         android:textSize="20sp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edAltura"/>
+        android:id="@+id/edAltura"
+        android:hint="Altura"
+        android:layout_marginBottom="40dp"/>
 
     <TextView
         android:layout_width="match_parent"
